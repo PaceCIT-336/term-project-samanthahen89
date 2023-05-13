@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define banner styles */
+.banner {
+  background-color: #FFC72C;
+  color: #002D72;
+  padding: 25px;
+}
+
+.banner img {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+/* Center the logo horizontally */
+.banner img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Set the logo position to top left */
+.banner img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Set the text alignment */
+.banner h1 {
+  text-align: center;
+}
+
+/* Additional styles for the rest of the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Apply the banner style to the header element */
+header {
+  position: relative;
+  z-index: 1;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #595dd3; /* Green background color */
+  color: #fff; /* White font color */
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #595dd3; /* Darker green background color on hover */
+}
+
+form {
+  background-color: #4286f4; /* Blue background color */
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff; /* White font color */
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td:nth-child(even), th:nth-child(even) {
+  background-color: #d1dbf3;
+}
