@@ -4,12 +4,11 @@
 // require_once("db_connect.php");
 
 $host = 'localhost';
-$port = '3307';
-$database = ''; // enter your database name here
-$user = ''; // enter your database username here
-$password = ''; // enter your database password here
+$database = 'ticketing_system'; // enter your database name here
+$user = 'projectapp'; // enter your database username here
+$password = 'projectpass123'; // enter your database password here
 $chrs = 'utf8mb4';
-$attr = "mysql:host=$host;port=$port;dbname=$database;charset=$chrs";
+$attr = "mysql:host=$host;dbname=$database;charset=$chrs";
 $opts = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
